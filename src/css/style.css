@@ -1,0 +1,108 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+    background-color: var(--neutral-light);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    max-width: 920px;
+}
+
+.container .card-sedans{
+    background-color: var(--primary);
+    padding: 48px;
+    width: 100%;
+    border-radius: 7px 0 0 7px;
+}
+
+.container .card-sedans .title::before{
+    content: '';
+    background: url(../images/icon-sedans.svg) no-repeat center;
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.container .card-sedans .button{
+    color: var(--primary);
+}
+
+.container .card-suvs{
+    background-color: var(--primary-dark);
+    padding: 48px;
+    width: 100%;
+}
+
+.container .card-suvs .title::before{
+    content: '';
+    background: url(../images/icon-suvs.svg) no-repeat center;
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.container .card-suvs .button{
+    color: var(--primary-dark);
+}
+
+.container .card-luxury{
+    background-color: var(--primary-very-dark);
+    padding: 48px;
+    width: 100%;
+    border-radius: 0 7px 7px 0;
+}
+
+.container .card-luxury .title::before{
+    content: '';
+    background: url(../images/icon-luxury.svg) no-repeat center;
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.container .card-luxury .button{
+    color: var(--primary-very-dark);
+}
+
+.container .title{
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--neutral-light);
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.container .description{
+    color: var(--neutral-transparent);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 83px;
+}
+
+.container .button{
+    border-radius: 25px;
+    background-color: var(--neutral-light);
+    border: 2px solid var(--neutral-light);
+    width: 146px;
+    height: 48px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.container .button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--neutral-light);
+}

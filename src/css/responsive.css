@@ -1,0 +1,14 @@
+@media (max-width:920px){
+    .container{
+        flex-wrap: wrap;
+        margin: 100px 22px;
+    }
+
+    .container .card-sedans{
+        border-radius: 7px 7px 0 0;
+    }
+
+    .container .card-luxury{
+        border-radius: 0 0 7px 7px;
+    }
+}
